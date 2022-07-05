@@ -1,0 +1,29 @@
+.heroes {
+
+  list-style-type: none;
+  padding-inline-start: 0px;
+  button {
+    text-align: left;
+    min-width: 200px;
+    padding-left: 0px;
+    overflow: hidden;
+    border-radius: 4px;
+    &:hover {
+      color: white;
+      background-color: grey;
+    }
+    &.selected {
+      color: white;
+      background-color: green
+    }
+  }
+  .badge {
+    padding: 1rem;
+    background-color: darkblue;
+    color: white;
+    height: 100%;
+  }
+  .name {
+    padding: 1rem;
+  }
+}
